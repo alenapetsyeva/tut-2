@@ -92,7 +92,6 @@ You can create nested lists:
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-
 and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
@@ -118,6 +117,23 @@ Here's an example that uses [cmdlet names)] to [task]. It includes commands that
 - [variable 2]
 
 <!--This shows you how a recent example was presented as well as how it was formatted. Preceding each line with one tab or four spaces to format in a code block-->
+
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
  [ACCORDION-END]
  
   [ACCORDION-BEGIN []()] 
