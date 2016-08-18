@@ -27,6 +27,18 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 #### Using the SAP HANA Developer Edition or SAP HANA Cloud Platform
 The workbench allows you to develop on HANA without the need to set up a local development environment.
 
+ ## Script Examples
+
+Here's an example that uses [cmdlet names)] to [task]. It includes commands that:
+
+- [short verb, uses, has, is, etc]
+- [next short verb] 
+
+<!--include this statement if it uses variables that weren't introduced earlier--> It includes the following variables:
+
+- [variable 1]
+- [variable 2]
+
 >### Warning
 >This is a Warning.
 
