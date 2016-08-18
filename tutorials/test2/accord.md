@@ -102,7 +102,7 @@ and
 
  [ACCORDION-END]
  
-  [ACCORDION-BEGIN [STEP 2](#step1)] 
+  [ACCORDION-BEGIN [STEP 2](Bulleted lists)] 
  ![Image1] (tags.png)
  ## Script Examples
 
