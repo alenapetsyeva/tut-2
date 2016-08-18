@@ -47,6 +47,34 @@ Beginners might take **10 minutes** to execute this tutorial.
 #### Using the SAP HANA Developer Edition or SAP HANA Cloud Platform
 The workbench allows you to develop on HANA without the need to set up a local development environment.
 
+ [ACCORDION-BEGIN [STEP 1](#step1)] 
+ test
+ test1
+ [ACCORDION-END]
+ [ACCORDION-BEGIN [STEP 2](#step1)] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+  [ACCORDION-BEGIN [](kjhjkhjhkjhjkj)] 
+ First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+ [ACCORDION-END]
+ 
+  [ACCORDION-BEGIN [STEP 2](#step1)] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+ 
 Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit) with your free developer edition account.
 
 ![Databases and schemas](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hana-xsodata/1.png)
