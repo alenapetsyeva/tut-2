@@ -56,7 +56,7 @@ Here's an example that uses [cmdlet names)] to [task]. It includes commands that
 You can create nested lists: 
 
 
- [ACCORDION-BEGIN [STEP 1](#step1)] 
+ [ACCORDION-BEGIN [STEP 1](The workbench allows you to develop on HANA without the need to set up a local development environment The workbench allows you to develop on HANA without the need to set up a local development environment)] 
  ***Task Lists*** (Please note, this requires empty line before task list):
 
   **Example:** 
