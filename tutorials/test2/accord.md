@@ -46,6 +46,15 @@ The workbench allows you to develop on HANA without the need to set up a local d
 
 >This is a note.
 
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
 Here's an example that uses [cmdlet names)] to [task]. It includes commands that:
 
 - [short verb, uses, has, is, etc]
