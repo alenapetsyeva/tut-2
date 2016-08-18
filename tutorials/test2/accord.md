@@ -27,6 +27,23 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 #### Using the SAP HANA Developer Edition or SAP HANA Cloud Platform
 The workbench allows you to develop on HANA without the need to set up a local development environment.
 
+>### Warning
+>This is a Warning.
+
+&nbsp;
+
+>### Caution
+>This is a Caution.
+
+&nbsp;
+
+>### Note
+
+>This is a note.
+
+You can create nested lists: 
+
+
  [ACCORDION-BEGIN [STEP 1](#step1)] 
  ***Task Lists*** (Please note, this requires empty line before task list):
 
