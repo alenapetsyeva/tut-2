@@ -53,7 +53,23 @@ Here's an example that uses [cmdlet names)] to [task]. It includes commands that
 
 >This is a note.
 
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
 You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
 
 
  [ACCORDION-BEGIN [STEP 1](The workbench allows you to develop on HANA without the need to set up a local development environment The workbench allows you to develop on HANA without the need to set up a local development environment)] 
