@@ -75,6 +75,13 @@ and
  ![Image1] (tags.png)
  [ACCORDION-END]
  
+  
+  
+  
+  [ACCORDION-BEGIN ] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+ 
 Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit) with your free developer edition account.
 
 ![Databases and schemas](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hana-xsodata/1.png)
