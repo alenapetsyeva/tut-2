@@ -384,7 +384,16 @@ and
 
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP test](test)] 
- [ACCORDION-BEGIN [test]()] 
- ![Image1] (tags.png)
+ <http://tut.by>
+<address@example.com>
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
  [ACCORDION-END]
  
