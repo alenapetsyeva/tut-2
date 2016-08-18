@@ -76,41 +76,7 @@ and
  [ACCORDION-END]
  
   [ACCORDION-BEGIN []()] 
- ![Image1] (tags.png)
- [ACCORDION-END]
- 
-Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit) with your free developer edition account.
-
-![Databases and schemas](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hana-xsodata/1.png)
-
-Choose Databases and Schemas, and choose then the instance that you created in the previous tutorials. From here you can access the Workbench.
- ![Image1] (tags.png)
-Use Azure PowerShell to [task]  
-
-
-
- ![Image2] (Image 1.png)
- 
-This article shows you how to [task], using commands from both the Azure module and the Azure Resource Manager module. This is intended to help you learn the new commands as well as migrate existing scripts to the new commands.
-
-[Consume XSODATA in your SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-consume-xsodata111.html)
-[Consume XSODATA in your SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-consume-xsodata1114564)
-
-## Script  Examples
-
-Here's an example that uses [cmdlet names)] to [task]. It includes commands that:
-
-- [short verb, uses, has, is, etc]
-- [next short verb] 
-
- It includes the following variables: 
-
-- [variable 1]
-- [variable 2]
- 
-
-
-190 lines_
+ 190 lines_
 ```javascript
 New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
 $family="Windows Server 2012 R2 Datacenter"
@@ -303,6 +269,40 @@ $image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedD
 $vmname="AZDC1"
 $vmsize="Medium"
 ``` 
+ [ACCORDION-END]
+ 
+Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit) with your free developer edition account.
+
+![Databases and schemas](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hana-xsodata/1.png)
+
+Choose Databases and Schemas, and choose then the instance that you created in the previous tutorials. From here you can access the Workbench.
+ ![Image1] (tags.png)
+Use Azure PowerShell to [task]  
+
+
+
+ ![Image2] (Image 1.png)
+ 
+This article shows you how to [task], using commands from both the Azure module and the Azure Resource Manager module. This is intended to help you learn the new commands as well as migrate existing scripts to the new commands.
+
+[Consume XSODATA in your SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-consume-xsodata111.html)
+[Consume XSODATA in your SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-consume-xsodata1114564)
+
+## Script  Examples
+
+Here's an example that uses [cmdlet names)] to [task]. It includes commands that:
+
+- [short verb, uses, has, is, etc]
+- [next short verb] 
+
+ It includes the following variables: 
+
+- [variable 1]
+- [variable 2]
+ 
+
+
+
 199 lines
 ```javascript
 $vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
