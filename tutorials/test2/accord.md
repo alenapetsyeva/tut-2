@@ -76,6 +76,19 @@ and
  
   [ACCORDION-BEGIN [STEP 2](#step1)] 
  ![Image1] (tags.png)
+ ## Script Examples
+
+Here's an example that uses [cmdlet names)] to [task]. It includes commands that:
+
+- [short verb, uses, has, is, etc]
+- [next short verb] 
+
+<!--include this statement if it uses variables that weren't introduced earlier--> It includes the following variables:
+
+- [variable 1]
+- [variable 2]
+
+<!--This shows you how a recent example was presented as well as how it was formatted. Preceding each line with one tab or four spaces to format in a code block-->
  [ACCORDION-END]
  
   [ACCORDION-BEGIN []()] 
