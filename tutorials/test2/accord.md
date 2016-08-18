@@ -383,3 +383,8 @@ and
 >This is a note.
 
  [ACCORDION-END]
+ [ACCORDION-BEGIN [STEP test](test)] 
+ [ACCORDION-BEGIN [test]()] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+ 
