@@ -75,8 +75,7 @@ and
  ![Image1] (tags.png)
  [ACCORDION-END]
  
-  
-  [ACCORDION-BEGIN [ ] ( )] 
+  [ACCORDION-BEGIN []()] 
  ![Image1] (tags.png)
  [ACCORDION-END]
  
@@ -1147,7 +1146,6 @@ $vmsize="Medium"
 ```
 bhsdkjgfdhfkjghkjdshgkljds
 
-
  [ACCORDION-BEGIN [STEP 1](#step1)] 
  test
  test1
@@ -1161,7 +1159,6 @@ bhsdkjgfdhfkjghkjdshgkljds
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-
 and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
@@ -1171,10 +1168,9 @@ and
 | zebra stripes | are neat        |    $1 |
 
  [ACCORDION-END]
- 
-  [ACCORDION-BEGIN [STEP 2](#step1)] 
+   [ACCORDION-BEGIN [STEP 2](#step1)] 
  ![Image1] (tags.png)
  [ACCORDION-END]
-   [ACCORDION-BEGIN [] ( )] 
+   [ACCORDION-BEGIN [ ]( )] 
  ![Image1] (tags.png)
  [ACCORDION-END]
