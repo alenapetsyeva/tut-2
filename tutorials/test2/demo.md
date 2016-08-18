@@ -48,8 +48,14 @@ Beginners might take **10 minutes** to execute this tutorial.
 The workbench allows you to develop on HANA without the need to set up a local development environment.
 
  [ACCORDION-BEGIN [STEP 1](#step1)] 
- test
- test1
+ ***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP 2](#step1)] 
  ![Image1] (tags.png)
