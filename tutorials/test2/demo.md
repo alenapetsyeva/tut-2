@@ -76,7 +76,7 @@ and
  [ACCORDION-END]
  
   
-  [ACCORDION-BEGIN [] ()] 
+  [ACCORDION-BEGIN [ ] ( )] 
  ![Image1] (tags.png)
  [ACCORDION-END]
  
@@ -88,38 +88,7 @@ Choose Databases and Schemas, and choose then the instance that you created in t
  ![Image1] (tags.png)
 Use Azure PowerShell to [task]  
 
- [ACCORDION-BEGIN [STEP 1](#step1)] 
- test
- test1
- [ACCORDION-END]
- [ACCORDION-BEGIN [STEP 2](#step1)] 
- ![Image1] (tags.png)
- [ACCORDION-END]
-  [ACCORDION-BEGIN [](kjhjkhjhkjhjkj)] 
- First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
-
-and
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-
- [ACCORDION-END]
- 
-  [ACCORDION-BEGIN [STEP 2](#step1)] 
- ![Image1] (tags.png)
- [ACCORDION-END]
- 
-  
-  [ACCORDION-BEGIN [] ()] 
- ![Image1] (tags.png)
- [ACCORDION-END]
 
  ![Image2] (Image 1.png)
  
@@ -1177,3 +1146,35 @@ $vmsize="Medium"
 $vmsize="Medium"
 ```
 bhsdkjgfdhfkjghkjdshgkljds
+
+
+ [ACCORDION-BEGIN [STEP 1](#step1)] 
+ test
+ test1
+ [ACCORDION-END]
+ [ACCORDION-BEGIN [STEP 2](#step1)] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+  [ACCORDION-BEGIN [](kjhjkhjhkjhjkj)] 
+ First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+ [ACCORDION-END]
+ 
+  [ACCORDION-BEGIN [STEP 2](#step1)] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
+   [ACCORDION-BEGIN [] ( )] 
+ ![Image1] (tags.png)
+ [ACCORDION-END]
