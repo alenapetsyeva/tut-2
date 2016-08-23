@@ -34,10 +34,12 @@ The workbench allows you to develop on HANA without the need to set up a local d
  
 >### Warning
 >This is a Warning.
+
 &nbsp;
 
 >### Caution
 >This is a Caution.
+
 &nbsp;
 
 >### Note
