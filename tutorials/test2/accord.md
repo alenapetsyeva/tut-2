@@ -30,22 +30,16 @@ The workbench allows you to develop on HANA without the need to set up a local d
  simle text
 ## Script 45646564
 ### Script Examples
-#### Script Examples
+### Script Examples
  
 >### Warning
 >This is a Warning.
-
 &nbsp;
-
 >### Caution
 >This is a Caution.
-
 &nbsp;
-
 >### Note
-
 >This is a note.
-
 
 ```javascript
 function fancyAlert(arg) {
@@ -411,6 +405,12 @@ function fancyAlert(arg) {
   }
 }
 ```
+
+## 2##Script 45646564
+
+### 3## Script Examples
+
+#### 4## Script Examples
 
  [ACCORDION-END]
  
