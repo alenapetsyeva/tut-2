@@ -104,11 +104,11 @@ Content in the first column | Content in the second column
 
 and
 
-| Left-Aligned  | Center Aligned  | Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| Left-Aligned  | Center Aligned  | Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo| Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
+| :------------ |:---------------:| -----:|Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
+| col 3 is      | some wordy text | $1600 |Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
+| col 2 is      | centered        |   $12 |Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
+| zebra stripes | are neat        |    $1 |Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
 
  [ACCORDION-END]
  
