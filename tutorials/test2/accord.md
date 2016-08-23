@@ -104,7 +104,7 @@ Content in the first column | Content in the second column
 
 and
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| Left-Aligned  | Center Aligned  | Right Aligned gkjudrfhjg ghdrf hoidhfg oiudfuoidfug dfo|
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
