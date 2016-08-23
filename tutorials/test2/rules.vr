@@ -1,0 +1,476 @@
+[VALIDATION_1]
+###Rule
+exact-match
+
+###Question
+Enter _setModel code block
+
+###Match
+# name of the dispatcher
+/name "internet-server"
+
+# each farm configures a set off (loadbalanced) renders
+/farms
+  {
+  # first farm entry (label is not important, just for your convenience)
+  /website
+    {
+    # client headers which should be passed through to the render instances
+    # (feature supported since dispatcher build 2.6.3.5222)
+    # 9.Jan.2015 - removed authorization header to allow apache basic authentication to function without forwarding credentials to aem
+    /clientheaders
+      {
+      "referer"
+      "user-agent"
+      "from"
+      "content-type"
+      "content-length"
+      "accept-charset"
+      "accept-encoding"
+      "accept-language"
+      "accept"
+      "host"
+      "if-match"
+      "if-none-match"
+      "if-range"
+      "if-unmodified-since"
+      "max-forwards"
+      "proxy-authorization"
+      "proxy-connection"
+      "range"
+      "cookie"
+      "cq-action"
+      "cq-handle"
+      "handle"
+      "action"
+      "cqstats"
+      "depth"
+      "translate"
+      "expires"
+      "date"
+      "dav"
+      "ms-author-via"
+      "if"
+      "lock-token"
+      "x-expected-entity-length"
+      "destination"
+      "ssl_client_cert"
+      "ssl_cipher_suite"
+      "ssl_cipher_usekeysize"
+      "X-CERT"
+      "CSRF-Token"
+      }
+    # hostname globbing for farm selection (virtual domain addressing)
+    /virtualhosts
+      {
+      # entries will be compared against the 'host' request header.
+      # example: www.company.com
+      # example: intranet.*
+      "*"
+      }
+    # the load will be balanced among these render instances
+    /renders
+      {
+
+      /rend01
+        {
+            # hostname or IP of the render
+            /hostname "localhost"
+            # port of the render
+            /port "4503"
+            # connect timeout in milliseconds, 0 to wait indefinitely
+            /timeout "0"
+        }
+      }
+    # only handle the requests in the following acl. default is 'none'
+    # the glob pattern is matched against the first request line
+    /filter
+      {
+      # deny everything and allow specific entries
+      /0001 { /type "deny"  /glob "*" }
+
+      # open consoles
+#     /0011 { /type "allow" /glob "* /admin/*"  }  # allow servlet engine admin
+#     /0012 { /type "allow" /glob "* /crx/*"    }  # allow content repository
+#     /0013 { /type "allow" /glob "* /system/*" }  # allow OSGi console
+
+      # allow non-public content directories
+#     /0021 { /type "allow" /glob "* /apps/*"   }  # allow apps access
+#     /0022 { /type "allow" /glob "* /bin/*"    }
+      /0023 { /type "allow" /glob "* /content*" }  # disable this rule to allow mapped content only
+#     /0024 { /type "allow" /glob "* /libs/*"   }
+#     /0025 { /type "allow" /glob "* /home/*"   }
+#     /0026 { /type "allow" /glob "* /tmp/*"    }
+#     /0027 { /type "allow" /glob "* /var/*"    }
+
+      # Permissions for IDS integration
+      /0070 { /type "allow" /glob "* /bin/callback*" }
+      /0071 { /type "allow" /glob "* /bin/ids/login*" }
+      /0072 { /type "allow" /glob "* /bin/ids/logout*" }
+      /0073 { /type "allow" /glob "* /bin/user*" }
+
+      # enable specific mime types in non-public content directories
+      /0074 { /type "allow" /glob "* *.css*"   }  # enable css
+      /0075 { /type "allow" /glob "* *.gif*"   }  # enable gifs
+      /0076 { /type "allow" /glob "* *.js*"    }  # enable javascript
+      /0077 { /type "allow" /glob "* *.png*"   }  # enable png
+      /0078 { /type "allow" /glob "* *.swf*"   }  # enable flash
+      /0079 { /type "allow" /glob "* *.eot*"   }  # enable fonts
+      /0080 { /type "allow" /glob "* *.woff*"  }  # enable fonts
+      /0081 { /type "allow" /glob "* *.ttf*"   }  # enable fonts
+      /0082 { /type "allow" /glob "* *.svg*"   }  # enable fonts
+      /0083 { /type "allow" /glob "* *.jpg*"   }  # enable jpg
+
+      # enable features
+      /0084 { /type "allow" /glob "POST /content/[.]*.form.html" }  # allow POSTs to form selectors under content
+      /0085 { /type "allow" /glob "* /libs/cq/personalization/*" }  # enable personalization
+
+      # deny content grabbing
+      /0086 { /type "deny" /glob "GET *.infinity.json*" }
+      /0087 { /type "deny" /glob "GET *.tidy.json*"     }
+      /0088 { /type "deny" /glob "GET *.sysview.xml*"   }
+      /0089 { /type "deny" /glob "GET *.docview.json*"  }
+
+      /0090 { /type "deny" /glob "* *.query*" }
+      /0091 { /type "deny" /glob "* *.feed*" }
+      /0092 { /type "deny" /glob "* *.xml*" }
+      /0093 { /type "deny" /glob "* *.json*" }
+      /0094 { /type "deny" /glob "* /system/sling/cqform/defaultlogin.html*" }
+
+      # enable i18n
+      /0095 { /type "allow" /glob "* /libs/cq/i18n*"}
+
+      # Server root file permissions
+      /0101 { /type "allow" /glob "GET /content/*/sitemap*xml*" }
+      /0102 { /type "allow" /glob "GET /content/*/BingSiteAuth*xml*" }
+      /0103 { /type "allow" /glob "GET /content/*/yandex*xml*" }
+      /0104 { /type "allow" /glob "GET /content/*/robots.txt*" }
+      /0105 { /type "allow" /glob "GET *.ico*" }
+      /0106 { /type "allow" /glob "* /bin/events/feed.json*" }
+
+      # System root folders permissions
+      /0201 { /type "allow" /glob "* /etc/*" }
+      /0202 { /type "allow" /glob "* /content/dam/*" }
+      /0203 { /type "allow" /glob "* /heartbeat.*" }
+      /0204 { /type "deny" /glob "* /etc/*.html*" }
+
+      # 1DX root folders permissions
+      /0301 { /type "allow" /glob "* /about*" }
+      /0302 { /type "allow" /glob "* /assetdetail*" }
+      /0303 { /type "allow" /glob "* /customer-testimonials*" }
+      /0304 { /type "allow" /glob "* /community*" }
+      /0305 { /type "allow" /glob "* /docs*" }
+      /0306 { /type "allow" /glob "* /developer*" }
+      /0307 { /type "allow" /glob "* /events*" }
+      /0308 { /type "allow" /glob "* /partner*" }
+      /0309 { /type "allow" /glob "* /products*" }
+      /0310 { /type "allow" /glob "* /registration*" }
+      /0311 { /type "allow" /glob "* /services*" }
+      /0312 { /type "allow" /glob "* /solution*" }
+      /0313 { /type "allow" /glob "* /support*" }
+      /0314 { /type "allow" /glob "* /training-certification*" }
+
+      # UAT folders permissions
+      /0401 { /type "allow" /glob "* /content/sapdx_uat*" }
+
+      # 1DX root folders permissions
+      /0500 { /type "allow" /glob "* /china*" }
+
+      # 1DX servlets permissions
+      /0550 { /type "allow" /glob "* /bin/tags*" }
+      /0551 { /type "allow" /glob "* /bin/sapdx*" }
+      /0552 { /type "allow" /glob "* /bin/sn/*" }
+      /0553 { /type "allow" /glob "* /bin/npc/*" }
+      /0554 { /type "allow" /glob "* /bin/asset*" }
+      /0555 { /type "allow" /glob "* /bin/ids/*" }
+      /0556 { /type "allow" /glob "* /bin/home*" }
+      /0557 { /type "allow" /glob "* /docs/download*" }
+      /0558 { /type "allow" /glob "* /bin/dynamicdialog*" }
+      /0559 { /type "deny" /glob "* /bin/sapdx/generate-sitemap*" }
+      /0560 { /type "deny" /glob "* /bin/sapdx/retrieveCampaign*" }
+	  /0561 { /type "allow" /glob "* /bin/sapdx/developer/*"}
+
+      # Monitoring URL for load balancer
+      /0610 { /type "allow" /glob "GET /libs/cq/core/content/systemready.txt *" }
+      /0611 { /type "deny" /glob "GET /static_content/error.html *" }
+      /0612 { /type "deny" /glob "GET /static_content/cq5.css *" }
+
+      # CSRF
+      /0620 { /type "allow" /glob "GET /libs/granite/csrf/token.json *" }
+
+      # Deny "*.xx" requests
+      /0630 { /type "deny" /glob "* *.xx*" }
+      }
+
+    # allow propagation of replication posts (should seldomly be used)
+    /propagateSyndPost "0"
+
+    # the cache is used to store requests from the renders for faster delivery
+    # for a second time.
+    /cache
+      {
+      # the cacheroot must be equal to the document root of the webserver
+      /docroot "C:/SAP/server/Apache2/Apache2/htdocs"
+
+      # sets the level upto which files named ".stat" will be created in the
+      # document root of the webserver. when an activation request for some
+      # handle is received, only files within the same subtree are affected
+      # by the invalidation.
+      /statfileslevel "5"
+
+      # caches also authorized data
+      /allowAuthorized "1"
+
+      # Flag indicating whether the dispatcher should serve stale content if
+      # no remote server is available.
+      /serveStaleOnError "1"
+
+      /ignoreUrlParams
+         {
+             /0001 { /glob "*" /type "allow" }
+             /0002 { /glob "nocache" /type "deny" }
+             /0003 { /glob "NOCACHE" /type "deny" }
+             /0004 { /glob "Query" /type "deny" }
+         }
+
+      # the rules define, which pages should be cached. please note that
+      # - only GET requests are cached
+      # - only requests with an extension are cached
+      # - only requests without query parameters ( ? ) are cached
+      # - only unauthorized pages are cached unless allowUnauthorized is set to 1
+      /rules
+        {
+        /0000
+          {
+          # the globbing pattern to be compared against the url
+          # example: *             -> everything
+          #        : /foo/bar.*    -> only the /foo/bar documents
+          #        : /foo/bar/*    -> all pages below /foo/bar
+          #        : /foo/bar[./]* -> all pages below and /foo/bar itself
+          #        : *.html        -> all .html files
+          /glob "*"
+          /type "deny"
+          }
+        /0001
+          {
+          /glob "*.html"
+          /type "allow"
+          }
+        /0002
+          {
+          /glob "/bin/*"
+          /type "deny"
+          }
+        /0003
+          {
+          /glob "/bin/sapdx/formadmin[./]*"
+          /type "allow"
+          }
+        /0004
+          {
+          /glob "/content/*/website*/assetdetail*"
+          /type "deny"
+          }
+        /0005
+          {
+          /glob "/content/*/website*/search-results*"
+          /type "deny"
+          }
+        /0006
+          {
+          /glob "/heartbeat.*"
+          /type "deny"
+          }
+        /0007
+          {
+          /glob "*.gif"
+          /type "allow"
+          }
+        /0008
+          {
+          /glob "*.png"
+          /type "allow"
+          }
+        /0009
+          {
+          /glob "*.jpg"
+          /type "allow"
+          }
+        /0009
+          {
+          /glob "*.pdf"
+          /type "allow"
+          }
+        /0010
+          {
+          /glob "/etc/designs/*"
+          /type "allow"
+          }
+        /0011
+          {
+          /glob "/etc/clientlibs/*"
+          /type "allow"
+          }
+        /0012
+          {
+          /glob "/content/*/website*/cmp/*.af.internalsubmit.jsp"
+          /type "deny"
+          }
+        /0013
+          {
+          /glob "/content/*/website*/cmp/*typ*"
+          /type "deny"
+          }
+        /0014
+          {
+          /glob "*.nocache.*"
+          /type "deny"
+          }
+        /0015
+          {
+          /glob "*.svg"
+          /type "allow"
+          }
+        /0016
+          {
+          /glob "*.mp4"
+          /type "allow"
+          }
+        /0017
+          {
+          /glob "/content/*/website*/sitemap_*.html"
+          /type "deny"
+          }
+        /0018
+          {
+          /glob "*.swf"
+          /type "allow"
+          }
+        /0019
+          {
+          /glob "*.eot"
+          /type "allow"
+          }
+        /0020
+          {
+          /glob "*.ttf"
+          /type "allow"
+          }
+        /0021
+          {
+          /glob "*.woff"
+          /type "allow"
+          }
+        /0022
+          {
+          /glob "*.ico"
+          /type "allow"
+          }
+        /0023
+          {
+          /glob "/bin/sapdxc/*"
+          /type "allow"
+          }
+        }
+      # the invalidate section defines those pages which are 'invalidated' after
+      # any activation. please note that, the activated page itself and all
+      # related documents are flushed on an modification. for example: if the
+      # page /foo/bar is activated, all /foo/bar.* files are removed from the
+      # cache.
+      /invalidate
+        {
+        /0000
+          {
+          /glob "*"
+          /type "deny"
+          }
+        /0001
+          {
+          /glob "*.html"
+          /type "allow"
+          }
+        /0002
+          {
+          /glob "*.css"
+          /type "allow"
+          }
+        /0003
+          {
+          /glob "*.js"
+          /type "allow"
+          }
+        /0004
+          {
+          /glob "*.pdf"
+          /type "allow"
+          }
+        /0005
+          {
+          /glob "*.(jpg|jpeg|gif|png|svg)"
+          /type "allow"
+          }
+        /0006
+          {
+          /glob "*.mp4"
+          /type "allow"
+          }
+        }
+      }
+    # the statistics define, how the load should be balanced among the renders
+    # according to the media-type.
+    /statistics
+      {
+      /categories
+        {
+        /html
+          {
+          /glob "*.html"
+          }
+        /others
+          {
+          /glob "*"
+          }
+        }
+      }
+      #Enable stickiness for non-cached URL's (applications that may require storing information in the HTTP Session).
+      #If we set it to "/" then this will cover ANY URL that is not cached, including those with ? in the URL
+      /stickyConnectionsFor "/"
+    }
+  }
+
+[VALIDATION_1]
+
+[VALIDATION_2]
+###Rule
+regex-substring
+
+###Question
+Enter _setModel code block
+
+###Match
+Create a specific behavior of the UI element while the end user is not logged in.
+Create a specific behavior of the UI element while the end user submitted the wrong answer.
+Create a specific behavior of the UI element while the end user submitted the right answer.
+[VALIDATION_2]
+
+[VALIDATION_3]
+###Rule
+regex-begins-with
+
+###Question
+€18.00
+
+###Match
+€1
+[VALIDATION_3]
+
+[VALIDATION_4]
+###Rule
+regex-with-id-exact-match
+
+###Question
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATION_4]
