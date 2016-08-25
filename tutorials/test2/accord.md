@@ -121,6 +121,7 @@ and
 | 4.2. [Java Web on SAP HANA Cloud Platform: Configuring the CI system for Maven-based Java Web project](http://go.sap.com/developer/tutorials/ci-best-practices-java-hcp.html) |          |            |            | (+)        | (++)       | (+)        |
 
 
+[DONE]
 
  [ACCORDION-END]
  
@@ -156,6 +157,9 @@ You can create nested lists:
 * item1
     * one_one
     * two
+
+[DONE]
+
  [ACCORDION-END]
  
   [ACCORDION-BEGIN []()] 
