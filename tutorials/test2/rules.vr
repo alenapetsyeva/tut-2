@@ -1,13 +1,46 @@
-[VALIDATE_3]
+[VALIDATE_1]
 ###Rule
-regex-begins-with
+regex-with-id-exact-match
 
 ###Question
-€18.00
+Enter URL to your application //[id] will be changed to uid
 
 ###Match
-€1
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+
+
+###Question
+Enter URL to your application //[id] will be changed to uid
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_2]
+
 [VALIDATE_3]
+###Rule
+regex-with-id-exact-match
+
+
+[VALIDATE_3]
+
+[VALIDATE_5]
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_5]
+
+
+[VALIDATE_6]
+###Rule
+regex-with-id-exact-match
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_6]
 
 [VALIDATE_4]
 ###Rule
