@@ -408,7 +408,7 @@ and
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP test](test)] 
  
-[VALIDATION_4]
+[VALIDATE_4]
  
  <http://tut.by>
 <address@example.com>
