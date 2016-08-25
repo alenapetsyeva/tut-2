@@ -59,11 +59,6 @@ Here's an example that uses [cmdlet names)] to [task]. It includes commands that
 - [short verb, uses, has, is, etc]
 - [next short verb] 
 
-<!--include this statement if it uses variables that weren't introduced earlier--> It includes the following variables:
-
-- [variable 1]
-- [variable 2]
-
 Sometimes you want numbered lists:
 
 1. One
@@ -74,7 +69,6 @@ Sometimes you want bullet points:
 
 * Start a line with a star
 * Profit!
-
 You can create nested lists: 
 
 * item1
@@ -170,188 +164,6 @@ simle text
  190 lines_
 ```javascript
 New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username -Password 
-$cred.GetNetworkCredential().Password$vm1 | Set-AzureSubnet -SubnetNames "BackEnd"
-$vm1 | Set-AzureStaticVNetIP -IPAddress 192.168.244.4
-$disksize=20
-$disklabel="DCData"
-$lun=0
-$hcaching="None"
-$vm1 | Add-AzureDataDisk -CreateNew -DiskSizeInGB $disksize -DiskLabel $disklabel -LUN $lun -HostCaching $hcaching
-$svcname="Azure-TailspinToys"
-$vnetname="AZDatacenter"
-New-AzureVM –ServiceName $svcname -VMs $vm1 -VNetName $vnetname
-$family="Windows Server 2012 R2 Datacenter"
-$family="Windows Server 2012 R2 Datacenter"
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | select -ExpandProperty ImageName -First 1
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
-$vmsize="Medium"
-$vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
-$cred=Get-Credential -Message "Type the name and password of the local administrator account."
-$vm1 | Add-AzureProvisioningConfig -Windows -AdminUsername $cred.GetNetworkCredential().Username –Password
-$image=Get-AzureVMImage | where { $_.ImageFamily -eq $family } | sort PublishedDate -Descending | 
-$vmname="AZDC1"
 $vmsize="Medium"
 $vm1=New-AzureVMConfig -Name $vmname -InstanceSize $vmsize -ImageName $image
 $cred=Get-Credential -Message "Type the name and password of the local administrator account."
@@ -366,8 +178,16 @@ Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit
 
 
  [ACCORDION-BEGIN [STEP 1](#step1)] 
- test
- test1
+ 
+ [VALIDATE_1]
+ 
+ [VALIDATE_2]
+ 
+ [VALIDATE_3]
+ 
+ [VALIDATE_5]
+ 
+ [VALIDATE_6]
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP 2](#step1)] 
  ![Image1] (tags.png)
@@ -429,15 +249,6 @@ function fancyAlert(arg) {
 }
 ```
 
-## 2##Script 45646564
-
-### 3## Script Examples
-
-#### 4## Script Examples 
-
-## 2##Script 45646564 hnklgfhk khnj klfgjhklgfj gfkljh klgfklhjgfkl ldfkg hjlkfgj
-
-### 3## Script Examples hklgfjh kldgfkljh lfkgjh dflkghj lfkghj flkghj lfgkjh fgklh
 
 
  [ACCORDION-END]
