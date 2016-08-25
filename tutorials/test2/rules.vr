@@ -1,4 +1,4 @@
-[VALIDATION_3]
+[VALIDATE_3]
 ###Rule
 regex-begins-with
 
@@ -7,9 +7,9 @@ regex-begins-with
 
 ###Match
 €1
-[VALIDATION_3]
+[VALIDATE_3]
 
-[VALIDATION_4]
+[VALIDATE_4]
 ###Rule
 regex-with-id-exact-match
 
@@ -18,4 +18,4 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
-[VALIDATION_4]
+[VALIDATE_4]
