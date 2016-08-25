@@ -11,7 +11,7 @@ regex-begins-with
 
 [VALIDATE_4]
 ###Rule
-regex-with-id-exact-match
+regex-begins-with
 
 ###Question
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
