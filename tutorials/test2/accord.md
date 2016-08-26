@@ -15,7 +15,7 @@ bxcvbvlcbjkcvjjbklcvbjcv
 
 ## Next Steps
  - This tutorial is part of a series.  The next tutorial is part 4: [Add a list to the current view](https://go.sap.com/developer/tutorials/sapui5-webide-add-list.html)
- 
+  
 
 ## Details
 ### You will learn  
