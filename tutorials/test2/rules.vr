@@ -81,7 +81,7 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [VALIDATE_9]
 ###Rule
-regex-sub-string
+regex-substring
 
 ###Question
 v9
