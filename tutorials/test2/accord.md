@@ -18,7 +18,7 @@ bxcvbvlcbjkcvjjbklcvbjcv
  
 ## Details
 ### You will learn  
-Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit, you will connect that destination to your local application.  
+Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit, you will connect that destination to your local application.    
 
 [VALIDATE_1]
 
