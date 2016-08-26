@@ -181,14 +181,19 @@ Login to the [HANA Cloud Cockpit](https://account.hanatrial.ondemand.com/cockpit
  [ACCORDION-BEGIN [STEP 1](#step1)] 
  
  [VALIDATE_1]
+
  
  [VALIDATE_2]
  
+ 
  [VALIDATE_3]
+ 
  
  [VALIDATE_5]
  
  [VALIDATE_6]
+ 
+ 
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP 2](#step1)] 
  ![Image1] (tags.png)
