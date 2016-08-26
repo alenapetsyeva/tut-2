@@ -77,3 +77,25 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_4]
+
+[VALIDATE_10]
+###Rule
+extract-match
+
+###Question
+v2
+extract-match
+
+###Match
+(function(width, height, length, current, dx, dy, x, y, hasFood, newEl){ 
+document.body.onkeydown = function(e){
+ dx = (e.keyCode - 38) % 2, dy = (e.keyCode - 39) % 2;
+ }; 
+var timer = setInterval(function () { 
+x = (x + dx) < 0 ? width - 1 : (x + dx) % width; 
+y = (y + dy) < 0 ? height - 1 : (y + dy) % height;
+newEl = document.getElementsByClassName(y + '_' + x)[0] 
+if(newEl.className.indexOf('s') > 0) { clearInterval(timer), alert('Game Over! Score: ' + length)
+};
+
+[VALIDATE_10]
