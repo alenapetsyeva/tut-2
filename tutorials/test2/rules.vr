@@ -81,7 +81,7 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [VALIDATE_9]
 ###Rule
-extract-match
+exact-match
 
 ###Question
 v2
