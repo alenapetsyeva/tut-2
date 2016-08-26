@@ -250,10 +250,10 @@ function fancyAlert(arg) {
 }
 ```
 
-[VALIDATE_10]
+[VALIDATE_1]
 
 
 
  [ACCORDION-END]
  
-[VALIDATE_1]
+[VALIDATE_10]
