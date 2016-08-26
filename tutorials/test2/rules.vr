@@ -10,11 +10,11 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_1]
 
 [VALIDATE_2]
-###Question
-v2
+###Rule
 extract-match
 
-###Rule
+###Question
+v2
 extract-match
 
 ###Match
@@ -36,6 +36,9 @@ if(newEl.className.indexOf('s') > 0) { clearInterval(timer), alert('Game Over! S
 ###Rule
 regex-sub-string
 
+###Question
+v3
+regex-sub-string
 ###Match
 (function(width, height, length, current, dx, dy, x, y, hasFood, newEl){ 
 document.body.onkeydown = function(e){
@@ -47,10 +50,6 @@ y = (y + dy) < 0 ? height - 1 : (y + dy) % height;
 newEl = document.getElementsByClassName(y + '_' + x)[0] 
 if(newEl.className.indexOf('s') > 0) { clearInterval(timer), alert('Game Over! Score: ' + length)
 };
-
-###Question
-v3
-regex-sub-string
 [VALIDATE_3]
 
 [VALIDATE_5]
