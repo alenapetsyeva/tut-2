@@ -11,7 +11,7 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [VALIDATE_2]
 ###Rule
-extract-match
+exact-match
 
 ###Question
 v2
@@ -85,7 +85,7 @@ extract-match
 
 ###Question
 v2
-extract-match
+exact-match
 
 ###Match
 (function(width, height, length, current, dx, dy, x, y, hasFood, newEl){ 
