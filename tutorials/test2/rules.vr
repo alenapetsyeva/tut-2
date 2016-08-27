@@ -106,7 +106,7 @@ if(newEl.className.indexOf('s') > 0) { clearInterval(timer), alert('Game Over! S
 exact-match
 
 ###Question
-v_111
+v_111_
 
 ###Match
  (function(width, height, length, current, dx, dy, x, y, hasFood, newEl){ 
