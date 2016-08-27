@@ -85,7 +85,7 @@ exact-match
 
 ###Question
 v9 update
-regex-sub-string
+exact-match
 
 ###Match
  (function(width, height, length, current, dx, dy, x, y, hasFood, newEl){ 
