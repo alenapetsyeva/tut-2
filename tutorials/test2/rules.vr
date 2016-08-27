@@ -120,4 +120,4 @@ newEl = document.getElementsByClassName(y + '_' + x)[0]
 if(newEl.className.indexOf('s') > 0) { clearInterval(timer), alert('Game Over! Score: ' + length)
 }; 
 
-[VALIDATE_11]
+[VALIDATE_111]
