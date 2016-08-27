@@ -253,8 +253,6 @@ function fancyAlert(arg) {
 }
 ```
 
-[VALIDATE_1]
-
  [ACCORDION-END]
  
-[VALIDATE_9]
+[VALIDATE_11]
