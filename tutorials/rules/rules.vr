@@ -16,7 +16,7 @@ Test
 
 [VALIDATE_2]
 ###Rule
-regex-sub-string
+regex-substring
 
 ###Question
 regex-sub-string:
