@@ -78,6 +78,7 @@ You can create nested lists:
     * one_one
     * two
 
+![Im] (Funny-Baby-11.jpg)
 
 
  [ACCORDION-BEGIN [STEP 1]( for testing] 
