@@ -5,6 +5,7 @@ tags: [products>sap-hana, products>sap-hana','-express-edition, tutorial>bbb, tu
 qrcode: true
 ---
 
+
 ## Prerequisites  
  - **Proficiency:** Beginner 
  - **Web IDE** If you don't have the Web IDE open, follow these steps: [Enable and open the HANA Cloud Platform Web IDE](https://go.sap.com/developer/tutorials/sapui5-webide-open-webide.html)
