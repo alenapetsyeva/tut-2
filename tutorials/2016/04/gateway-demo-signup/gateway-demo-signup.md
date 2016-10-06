@@ -18,6 +18,7 @@ Detailed steps creating an account on the Gateway Demo System (also known as ES4
 
 ---
 
+
 1.  First we need to create an account on the Gateway System.  The system will use your sap.com profile information to create the account.
 
     Click or enter this link in your browser: [https://supsignformsb03be6e80.us1.hana.ondemand.com/SUPSignForms/](https://supsignformsb03be6e80.us1.hana.ondemand.com/SUPSignForms/).
