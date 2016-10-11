@@ -51,7 +51,7 @@ regex-with-id-exact-match
 regex-with-id-exact-match
 Enter URL to your application //[id] will be changed to uid
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
-
+ 
 
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
