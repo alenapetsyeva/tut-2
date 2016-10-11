@@ -1,7 +1,7 @@
 ---
 title: cheking rules
 description: 4 types of rules 
-tags: [tutorial:product/sapHana, tutorial:product/hana_studio, tutorial:technology/sql, tutorial:technology/amazon_aws, tutorial:product/hcp, tutorial:interest/gettingstarted, tutorial:product/hcp_web_workbench]
+tags: [tutorial:product/sapHana, tutorial:product/hana_studio, tutorial:technology/sql, tutorial:technology/amazon_aws, tutorial:product/hcp, tutorial:interest/gettingstarted, tutorial:product/hcp_web_workbench, language>arabic]
 qrcode: true
 ---
 
