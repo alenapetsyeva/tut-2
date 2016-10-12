@@ -50,10 +50,12 @@ relative path for video
  
  
   [ACCORDION-BEGIN [STEP 5](Video public path)] 
+  
  [EMBEDDED-VIDEO [](http://dx-test2.mo.sap.corp/assetdetail/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.html)]
  [ACCORDION-END]
 
   [ACCORDION-BEGIN [STEP 6](Video absolute path)] 
+  
  [EMBEDDED-VIDEO [](http://dx-test2.mo.sap.corp/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.mp4)]
  [ACCORDION-END]
 
