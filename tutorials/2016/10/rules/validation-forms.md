@@ -33,10 +33,12 @@ no published for video
  
  relative path for video 
  
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/07/968f44c2-3d7c-0010-82c7-eda71af511fa.mp4)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/10/fp.avi)]
  
  [VALIDATE_1]
+ 
  [ACCORDION-END]
+ 
  [ACCORDION-BEGIN [STEP 2]( Regex Sub-string)] 
 [VALIDATE_2]
  [ACCORDION-END]
