@@ -24,16 +24,16 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 ## Prerequisites  
 - [Access your first data in a SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-data-access-authorizations.html)
 
-relative path for video 
+no published for video 
 
-[EMBEDDED-VIDEO []( /content/dam/site/sapcom/multimedia/2016/09/52dae539-877c-0010-82c7-eda71af511fa.mp4)] 
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/01/d0887496-3d7c-0010-82c7-eda71af511fa.mp4)] 
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
  
  
  relative path for video 
  
- [EMBEDDED-VIDEO []( /content/dam/site/sapcom/multimedia/2016/09/ba20053a-877c-0010-82c7-eda71af511fa.mp4)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/07/968f44c2-3d7c-0010-82c7-eda71af511fa.mp4)]
  
  [VALIDATE_1]
  [ACCORDION-END]
@@ -51,7 +51,7 @@ relative path for video
  
   [ACCORDION-BEGIN [STEP 5](Video public path)] 
   
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.mp4)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/06/a290e491-7a7c-0010-82c7-eda71af511fa.mp4)]
  [ACCORDION-END]
 
   [ACCORDION-BEGIN [STEP 6](Video relative path)] 
