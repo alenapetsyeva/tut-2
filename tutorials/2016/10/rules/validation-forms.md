@@ -26,14 +26,14 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
 relative path for video 
 
-[EMBEDDED-VIDEO [](/sapcom/multimedia/2016/09/52dae539-877c-0010-82c7-eda71af511fa.mp4)] 
+[EMBEDDED-VIDEO []( /content/dam/site/sapcom/multimedia/2016/09/52dae539-877c-0010-82c7-eda71af511fa.mp4)] 
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
  
  
  relative path for video 
  
- [EMBEDDED-VIDEO [](/sapcom/multimedia/2016/09/ba20053a-877c-0010-82c7-eda71af511fa.mp4)]
+ [EMBEDDED-VIDEO []( /content/dam/site/sapcom/multimedia/2016/09/ba20053a-877c-0010-82c7-eda71af511fa.mp4)]
  
  [VALIDATE_1]
  [ACCORDION-END]
@@ -51,12 +51,12 @@ relative path for video
  
   [ACCORDION-BEGIN [STEP 5](Video public path)] 
   
- [EMBEDDED-VIDEO [](http://dx-test2.mo.sap.corp/assetdetail/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.html)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.html)]
  [ACCORDION-END]
 
-  [ACCORDION-BEGIN [STEP 6](Video absolute path)] 
+  [ACCORDION-BEGIN [STEP 6](Video relative path)] 
   
- [EMBEDDED-VIDEO [](http://dx-test2.mo.sap.corp/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.mp4)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.mp4)]
  [ACCORDION-END]
 
 update
