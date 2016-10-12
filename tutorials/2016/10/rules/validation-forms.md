@@ -35,7 +35,7 @@ no published for video
  
  [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/10/fp.avi)]
  
- [VALIDATE_1]
+[VALIDATE_1]
  
  [ACCORDION-END]
  
