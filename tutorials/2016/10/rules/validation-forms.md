@@ -24,7 +24,15 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 ## Prerequisites  
 - [Access your first data in a SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-data-access-authorizations.html)
 
+relative path for video
+[EMBEDDED-VIDEO [](/sapcom/multimedia/2016/09/52dae539-877c-0010-82c7-eda71af511fa.mp4)] 
+
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
+ 
+ 
+ relative path for video
+ [EMBEDDED-VIDEO [](/sapcom/multimedia/2016/09/ba20053a-877c-0010-82c7-eda71af511fa.mp4)]
+ 
  [VALIDATE_1]
  [ACCORDION-END]
  [ACCORDION-BEGIN [STEP 2]( Regex Sub-string)] 
@@ -36,6 +44,11 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  
   [ACCORDION-BEGIN [STEP 4](Regex with id Exact Match)] 
  [VALIDATE_4]
+ [ACCORDION-END]
+ 
+ 
+  [ACCORDION-BEGIN [STEP 5](Video absolute path)] 
+ [EMBEDDED-VIDEO [](http://dx-test.mo.sap.corp/assetdetail/2014/02/9ed8996e-4a7c-0010-82c7-eda71af511fa.html)]
  [ACCORDION-END]
 
 
