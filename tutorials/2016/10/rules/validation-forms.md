@@ -33,7 +33,7 @@ no published for video
  
  relative path for video 
 
-[VALIDATE_1]
+
  
  [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/10/fp.avi)]
  
