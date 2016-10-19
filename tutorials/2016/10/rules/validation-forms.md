@@ -24,9 +24,9 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 ## Prerequisites  
 - [Access your first data in a SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-data-access-authorizations.html)
 
-no published for video 
 
-[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/01/d0887496-3d7c-0010-82c7-eda71af511fa.mp4)] 
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/08/7a241d62-387c-0010-82c7-eda71af511fa.mp4)] 
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
  
@@ -35,7 +35,7 @@ no published for video
 
 
  
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/10/fp.avi)]
+ [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)]
  
 [VALIDATE_1]
  
