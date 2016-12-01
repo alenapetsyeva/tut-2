@@ -57,6 +57,7 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
   
  [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/06/a290e491-7a7c-0010-82c7-eda71af511fa.mp4)]
  
+ 
  [DONE]
   
  [ACCORDION-END]
