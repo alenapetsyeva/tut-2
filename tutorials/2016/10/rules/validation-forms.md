@@ -56,11 +56,15 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
   [ACCORDION-BEGIN [STEP 5](Video public path)] 
   
  [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/06/a290e491-7a7c-0010-82c7-eda71af511fa.mp4)]
+ 
+ [DONE]
+  
  [ACCORDION-END]
 
   [ACCORDION-BEGIN [STEP 6](Video not existed relative path)] 
   
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2014/02/9ed8996e-4a7c-0010-82c7-eda71a232f511fa.mp4)]
+ [DONE]
+ 
  [ACCORDION-END]
 
 update
