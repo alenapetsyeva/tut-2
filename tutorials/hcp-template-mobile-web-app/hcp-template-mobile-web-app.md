@@ -19,7 +19,7 @@ You will be setting a few configurations, then filling out a few forms in this s
 
 ### Time to Complete
 **10 min**
-
+ 
 
 1. Go to <https://account.hanatrial.ondemand.com> and log in to your HCP cockpit.
 
