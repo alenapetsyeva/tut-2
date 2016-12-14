@@ -25,7 +25,7 @@ You will add a map display to one of the tabs in your app and geolocate an addre
 
 [VALIDATE_1]
 
-
+[VALIDATE_7]
 
 The Static Maps API returns an image that you can display in a HTML image tag.   
 
