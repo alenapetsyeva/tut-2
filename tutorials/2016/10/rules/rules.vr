@@ -58,4 +58,16 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_4]
 
+[VALIDATE_7]
+###Rule
+regex-substring
 
+###Question
+regex-sub-string:
+est
+
+
+###Match
+est 
+
+[VALIDATE_7]
