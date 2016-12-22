@@ -56,9 +56,8 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  [VALIDATE_6] 
 [ACCORDION-END]
 
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 6](http-status-check 200)] 
+[ACCORDION-BEGIN [STEP 7(http-status-check 200)] 
   
 [VALIDATE_7] 
 [ACCORDION-END]
