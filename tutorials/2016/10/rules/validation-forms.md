@@ -29,14 +29,7 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)] 
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
- 
- 
- relative path for video 
-
-
- 
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)]
- 
+   
 [VALIDATE_1]
  
  [ACCORDION-END]
@@ -53,21 +46,22 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  [ACCORDION-END]
  
  
-  [ACCORDION-BEGIN [STEP 5](Video public path)] 
+  [ACCORDION-BEGIN [STEP 5](http-status-check 404)] 
   
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/06/a290e491-7a7c-0010-82c7-eda71af511fa.mp4)]
- 
- 
-[DONE]
-  
+ [VALIDATE_5] 
  [ACCORDION-END]
 
-  [ACCORDION-BEGIN [STEP 6](Video not existed relative path)] 
+[ACCORDION-BEGIN [STEP 6](http-status-check 301, 401)] 
   
- [DONE]
- 
- [ACCORDION-END]
+ [VALIDATE_6] 
+[ACCORDION-END]
 
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](http-status-check 200)] 
+  
+[VALIDATE_7] 
+[ACCORDION-END]
 update
 
 
