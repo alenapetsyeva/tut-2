@@ -36,24 +36,30 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  
  [ACCORDION-BEGIN [STEP 2]( Regex Sub-string)] 
 [VALIDATE_2]
+
  [ACCORDION-END]
+ 
   [ACCORDION-BEGIN [STEP 3](Regex begins with)] 
  [VALIDATE_3]
+ 
  [ACCORDION-END]
  
   [ACCORDION-BEGIN [STEP 4](Regex with id Exact Match)] 
  [VALIDATE_4]
+ 
  [ACCORDION-END]
  
  
   [ACCORDION-BEGIN [STEP 5](http-status-check 404)] 
   
  [VALIDATE_5] 
+ 
  [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 6](http-status-check 301, 401)] 
   
  [VALIDATE_6] 
+ 
 [ACCORDION-END]
 
 
@@ -61,6 +67,8 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
   
 [VALIDATE_7] 
 [ACCORDION-END]
+
+
 update
 
 
