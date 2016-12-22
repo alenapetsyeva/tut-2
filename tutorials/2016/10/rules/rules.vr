@@ -58,17 +58,36 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_4]
 
-[VALIDATE_7]
+[VALIDATE_5]
 ###Rule
-regex-substring
+http-status-check
 
 ###Question
-regex-sub-string1:
-est
-
+with 404
 
 ###Match
-est 123   4     
-456
+404
+[VALIDATE_5]
 
-[VALIDATE_7]  
+[VALIDATE_6]
+###Rule
+http-status-check
+
+###Question
+with 301 или 401
+
+###Match
+301, 401 
+
+[VALIDATE_6]
+
+[VALIDATE_7]
+###Rule
+http-status-check
+
+###Question
+with 200
+
+###Match
+200
+[VALIDATE_7]
