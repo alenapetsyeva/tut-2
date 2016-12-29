@@ -2,11 +2,6 @@
 ###Rule
 exact-match
 
-###Question
-extract-match rule
-Answer-update355: 
-test
-Test
 
 ###Match
 test
