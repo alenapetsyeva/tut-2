@@ -2,11 +2,7 @@
 ###Rule
 exact-match
 
-###Question
-extract-match rule
-Answer-update10: 
-test
-Test
+
 
 ###Match
 test
