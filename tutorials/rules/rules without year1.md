@@ -80,7 +80,7 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  [ACCORDION-END]
 
 
- [VALIDATE_5]
+ [VALIDATE_2]
  
  [VALIDATE_6]
  
