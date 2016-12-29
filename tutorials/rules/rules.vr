@@ -2,9 +2,6 @@
 ###Rule
 exact-match
 
-###Match
-test
-Test
 
 [VALIDATE_1]
 
