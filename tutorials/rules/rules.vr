@@ -2,12 +2,15 @@
 ###Rule
 exact-match
 
+###Match
+test1
+TEst2 
 
 [VALIDATE_1]
 
 
 [VALIDATE_2]
-###Question
+###Rule
 regex-substring
 
 ###Match
@@ -20,7 +23,7 @@ TEst2
 ###Rule
 regex-begins-with
 
-###Question
+###Match
  begins with 
  
 [VALIDATE_3]
