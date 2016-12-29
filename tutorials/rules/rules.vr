@@ -7,7 +7,7 @@ exact-match
 
 
 [VALIDATE_2]
-###Rule
+###Question
 regex-substring
 
 ###Match
@@ -20,7 +20,7 @@ TEst2
 ###Rule
 regex-begins-with
 
-###Match
+###Question
  begins with 
  
 [VALIDATE_3]
