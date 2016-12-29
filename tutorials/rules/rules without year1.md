@@ -75,14 +75,16 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
   [ACCORDION-BEGIN [STEP 6](Video not existed relative path)] 
   
+ [VALIDATE_6] 
+  
  [DONE]
  
  [ACCORDION-END]
 
 
- [VALIDATE_2]
+[VALIDATE_2]
  
- [VALIDATE_6]
+[VALIDATE_6]
  
- [VALIDATE_7]
+[VALIDATE_7]
  
