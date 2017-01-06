@@ -30,49 +30,12 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
 
 
-[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)] 
-
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
- 
- 
- relative path for video 
-
-
- 
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)]
+  
+Question in MD file
  
 [VALIDATE_1]
  
  [ACCORDION-END]
  
- [ACCORDION-BEGIN [STEP 2]( Regex Sub-string)] 
-[VALIDATE_2]
- [ACCORDION-END]
-  [ACCORDION-BEGIN [STEP 3](Regex begins with)] 
- [VALIDATE_3]
- [ACCORDION-END]
- 
-  [ACCORDION-BEGIN [STEP 4](Regex with id Exact Match)] 
- [VALIDATE_4]
- [ACCORDION-END]
- 
- 
-  [ACCORDION-BEGIN [STEP 5](Video public path)] 
-  
- [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2016/06/a290e491-7a7c-0010-82c7-eda71af511fa.mp4)]
- 
- 
-[DONE]
-  
- [ACCORDION-END]
-
-  [ACCORDION-BEGIN [STEP 6](Video not existed relative path)] 
-  
-[VALIDATE_6] 
-  
-[DONE]
- 
- [ACCORDION-END]
-
-
