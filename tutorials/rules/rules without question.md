@@ -33,8 +33,8 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
   
-<p>An example of question</p>
-<strong>Provide your answer?</strong>
+### An example of question
+## your answer?
  
 [VALIDATE_1]
  
