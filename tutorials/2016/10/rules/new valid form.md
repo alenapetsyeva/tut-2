@@ -29,6 +29,9 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2015/11/6e9ece44-4a7c-0010-82c7-eda71af511fa.mp4)] 
 
+
+[for linkchecker](http://news.sap.com/?p=135488)
+
  [ACCORDION-BEGIN [STEP 1]( Extra match rule)] 
    
 [VALIDATE_1]
