@@ -15,6 +15,7 @@ Test
 [VALIDATE_1]
 
 
+
 [VALIDATE_2]
 ###Rule
 regex-substring
