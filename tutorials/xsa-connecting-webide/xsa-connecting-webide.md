@@ -19,7 +19,7 @@ SAP HANA XS Advanced is the new development paradigm from SAP based around the C
 
 
 ### Time to Complete
-**15 Min**.
+**16 Min**.
 
 ---
 
