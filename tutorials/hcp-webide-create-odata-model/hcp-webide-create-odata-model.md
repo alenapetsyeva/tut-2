@@ -42,7 +42,7 @@ XML declaration   | Not necessary for `.edmx` files, but useful to include if yo
 Part two of this tutorial adds in a second `EntityType` and the required elements to set up the `NavigationProperty`. In the Web IDE template you have been using the data from the `NavigationProperty` (Suppliers) has been displayed in the Info or Suppliers tab.
 
 ### Time to Complete
-**20 Min**.
+**21 Min**.
 
 ### Part 1
 
