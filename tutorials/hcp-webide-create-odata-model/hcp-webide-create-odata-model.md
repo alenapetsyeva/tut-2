@@ -22,7 +22,7 @@ In this tutorial, you will create an OData model with a Sales Order related data
 Both versions of the metadata document will allow you to use the Web IDE template wizard to create an app in the next tutorial (and then switch it to a live service).
 
 Additionally, the full data model is provided at the bottom of this document if you want to refer to it later for use in your projects.
-
+ 
 **Background:**
 
 A metadata document is defined in the Common Schema Definition Language (CSDL). There is an exhaustive description of [CSDL](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) here, but this tutorial will focus on a subset of the full language to build the metadata needed for this tutorial.  
