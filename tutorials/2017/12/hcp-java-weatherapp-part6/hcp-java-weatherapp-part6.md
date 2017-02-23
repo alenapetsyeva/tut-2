@@ -193,3 +193,4 @@ In this tutorial you will implement a simple domain model and implement the corr
 
 ## Next Steps
 - [End-to-End Weather App Scenario Part 7](http://go.sap.com/developer/tutorials/hcp-java-weatherapp-part7.html)
+upd
