@@ -112,5 +112,7 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
   
  [VALIDATE_13] 
  
+  
+[ACCORDION-END]
 
 
