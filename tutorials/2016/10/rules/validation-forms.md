@@ -86,7 +86,9 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
 
 [ACCORDION-BEGIN [STEP 10](single-choice without question)] 
+
   Question 10 fjkljsfk klgnjkl lkgjnklg lkdjsgkl gdlskgns dgkldnsgkf dglkfdgfd gdfbg dfhg/ jdgjkfdjg usfhguhfdughdfuhgu
+  
  [VALIDATE_10] 
  
 [ACCORDION-END]
@@ -94,6 +96,7 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
 
 [ACCORDION-BEGIN [STEP 11](multiple-choice without question)] 
   Qusstion 11
+  
  [VALIDATE_11] 
  
 [ACCORDION-END]
