@@ -70,8 +70,21 @@ Now that you have set up a Destination in the HANA Cloud Platform (HCP) cockpit,
  
 [ACCORDION-END]
 
-1
-update
+
+[ACCORDION-BEGIN [STEP 8](single-choice)] 
+  
+ [VALIDATE_8] 
+ 
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [STEP 9](multiple-choice)] 
+  
+ [VALIDATE_9] 
+ 
+[ACCORDION-END]
+
+
 
 
 
