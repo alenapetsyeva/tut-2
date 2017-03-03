@@ -101,11 +101,15 @@ Ex: https://www.google.com
 single-choice
 
 ###Question
-The text of question
+The text of question This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure
 
 ###Match
 [ ] Answer 1
 [ ] This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure. Answer 2
+[x] Answer 3
+[X ] Answer 4
+[X] Answer 1
+[X] This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure. Answer 2
 [x] Answer 3
 [ ] Answer 4
 
