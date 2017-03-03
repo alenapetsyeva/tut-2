@@ -129,6 +129,14 @@ The text of question
 [X] This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure. Answer 2
 [X] Answer 3
 [] Answer 4
+[ ] Answer 1
+[ ] This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure. Answer 2
+[x] Answer 3
+[X ] Answer 4
+[X] Answer 1
+[X] This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure.This tutorial will help you create a HANA instance in one of the two public cloud providers: Amazon AWS or Microsoft Azure. Answer 2
+[x] Answer 3
+[ ] Answer 4
 
 [VALIDATE_9]
 
