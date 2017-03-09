@@ -16,7 +16,7 @@ primary_tag: [products>sap-hana-cloud-platform, topic>odata]
 
 ### You will learn
 When you built the app in previous tutorial series, the template added two fields in the detail view header (`UnitsInStock` and `UnitsOnOrder`). Those fields appear in the detail view without labels, so you will add some for them.
-
+---
  ![Application fields requiring labels](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hcp-webide-add-labels-field/mob2-1_0.png)
 
 To explore a bit more of SAP Web IDE, you will use the Web IDE search feature to identify which file to edit.
