@@ -2,6 +2,7 @@
 
 title: Continuous Integration (CI) Best Practices with SAP: Generic Project
 description: Part 4.1: Configuring the CI system for Maven-based generic Java project.
+primary_tag: tutorial>intermediate
 tags: [  tutorial>intermediate, tutorial:type/project ]
 
 ---
