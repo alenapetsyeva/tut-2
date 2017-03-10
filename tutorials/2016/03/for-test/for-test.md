@@ -1,5 +1,6 @@
 ---
 title: End-to-End Weather App Scenario Part 8
+primary_tag: tutorial>intermediate
 description: Use the Connectivity Service to access external (backend) systems.
 tags: [ products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
 ---
