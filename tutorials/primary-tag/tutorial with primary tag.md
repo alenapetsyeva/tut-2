@@ -5,6 +5,7 @@ tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, top
 primary_tag: products>sap-web-ide
 ---
 
+
 ## Prerequisites
  - **Proficiency:** Beginner
  - **Tutorials:** [Deploy your mobile web app to SAP HANA Cloud Platform](http://go.sap.com/developer/tutorials/hcp-deploy-mobile-web-app.html)
