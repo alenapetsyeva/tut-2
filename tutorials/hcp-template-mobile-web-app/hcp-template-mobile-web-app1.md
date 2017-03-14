@@ -2,7 +2,7 @@
 title: Build an app from an SAP Web IDE template 
 description: Build an app using the SAP Web IDE template wizard
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, topic>odata, topic>sapui5, tutorial>beginner, tutorial>t1 ]
-primary_tag: tutorial>beginner
+primary_tag: tutorial:product/HANA
 ---
 ## Prerequisites
  - **Proficiency:** Beginner
