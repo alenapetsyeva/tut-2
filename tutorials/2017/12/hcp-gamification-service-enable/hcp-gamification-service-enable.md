@@ -2,6 +2,7 @@
 title: Enable and configure the SAP HANA Cloud Platform, gamification service
 description: In SAP HANA Cloud Platform, configure the user roles and connectivity destinations necessary to use the gamification service.
 tags: [  tutorial>beginner, topic>cloud, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
