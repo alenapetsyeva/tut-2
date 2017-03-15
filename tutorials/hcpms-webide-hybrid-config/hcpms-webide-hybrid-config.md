@@ -1,6 +1,7 @@
 ---
 title: Configure an SAP Web IDE project for hybrid builds
 description: Learn how to modify the Device Configurations settings of a mobile web project for a hybrid build
+primary_tag: products>sap-hana-cloud-platform
 tags: [products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, tutorial>intermediate ]
 ---
 
