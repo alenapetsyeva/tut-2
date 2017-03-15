@@ -2,6 +2,7 @@
 title: Download and install SAP BusinessObjects Lumira
 description: A walkthrough of how to download and install SAP BusinessObjects Lumira
 tags: [products>sap-lumira, tutorial>beginner]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
