@@ -1,6 +1,7 @@
 ---
 title: prod
 description: Learn how to insert labels into the detail view of your app and add additional fields.
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, topic>cloud, topic>security, products>sap-hana, products>sap-hana\,-express-edition, products>sap-hana-cloud-platform ]
 
 ---
