@@ -1,6 +1,7 @@
 ---
 title: Customize game mechanics of HelpDesk application in SAP HANA Cloud Platform
 description: Manually customize the game mechanics of the gamified HelpDesk application using the Gamification Workbench on the SAP HANA Cloud Platform.
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>beginner, topic>cloud, products>sap-hana-cloud-platform ]
 ---
 ## Prerequisites  
