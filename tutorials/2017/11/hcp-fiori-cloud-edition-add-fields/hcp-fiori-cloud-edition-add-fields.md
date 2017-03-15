@@ -2,6 +2,7 @@
 title: Add custom fields to a standard SAP Fiori app
 description: This tutorial shows you how to add  custom fields and view elements to a standard SAP Fiori app.
 tags: [  tutorial>beginner, topic>cloud, topic>odata, topic>sapui5, products>sap-web-ide ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
