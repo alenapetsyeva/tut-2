@@ -2,6 +2,7 @@
 title: Sign up for an account on HANA Cloud Platform
 description: How to sign up for a free SAP HANA Cloud Platform (HCP) account
 tags: [ products>sap-hana-cloud-platform, topic>cloud, tutorial>beginner ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites
  - **Proficiency:** Beginner
