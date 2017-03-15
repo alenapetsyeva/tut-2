@@ -2,7 +2,7 @@
 title: Compile and run a native Android app on SAP HANA Cloud Platform
 description: Clone a Github repository, import it into your project, run it on SAP HANA Cloud Platform mobile services for development and operations then review the main classes and methods.
 tags: [  tutorial>intermediate, topic>cloud, topic>java, topic>mobile, products>sap-hana-cloud-platform ]
-
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites  
