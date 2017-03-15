@@ -1,6 +1,7 @@
 ---
 title: SAP HANA XS Classic, Getting started with SAP HANA and connecting the Web Workbench
 description: Access your first data in a native SAP HANA Application.
+primary_tag: products>sap-hana-cloud-platform
 tags: [ products>sap-hana, products>sap-hana-studio, products>sap-hana-cloud-platform, topic>sql, topic>big-data, tutorial>beginner]
 ---
 ## Prerequisites  
