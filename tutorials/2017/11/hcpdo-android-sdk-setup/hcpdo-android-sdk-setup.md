@@ -2,6 +2,7 @@
 title: Configure Android Studio for mobile development
 description: Configure an Android Studio project for mobile development with SAP HANA Cloud Platform Development and Operations
 tags: [  tutorial>intermediate, topic>cloud, topic>java, topic>mobile, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 
 ---
 
