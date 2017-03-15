@@ -2,6 +2,7 @@
 title: Create an account on the Gateway Demo system
 description: Sign up for an account on our demo Gateway server (ES4).
 tags: [ products>sap-gateway, topic>cloud, topic>odata, tutorial>beginner ]
+primary_tag: tutorial:product/sapHana
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
