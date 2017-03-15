@@ -2,6 +2,7 @@
 title: SAP HANA XS Advanced, Creating an HTML5 Module
 description: Part 2 of 3, Create your first HTML5 module for HTML5 content within your XSA application
 tags: [products>sap-hana, topic>big-data, tutorial>beginner ]
+primary_tag: tutorial:product/sapHana
 
 ---
 
