@@ -3,6 +3,7 @@ title: cheking wrong setup
 description: 4 types of rules 
 tags: [tutorial:product/sapHana, tutorial:product/hana_studio, tutorial:technology/sql, tutorial:technology/amazon_aws, tutorial:product/hcp, tutorial:interest/gettingstarted, tutorial:product/hcp_web_workbench]
 qrcode: true
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites  
