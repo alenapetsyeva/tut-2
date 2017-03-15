@@ -2,6 +2,7 @@
 title: Create a hybrid app in SAP HANA Cloud Platform mobile services for development and operations
 description: Learn how to create a hybrid app definition in SAP HANA Cloud Platform mobile services for development and operations
 tags: [ products>sap-hana-cloud-platform, topic>cloud, topic>mobile, tutorial>intermediate]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Intermediate
