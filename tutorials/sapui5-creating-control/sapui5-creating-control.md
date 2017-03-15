@@ -1,6 +1,7 @@
 ---
 title: SAPUI5 creating a new UI5 control
 description: Part 3 of 4. In this tutorial you will learn how to create a simple UI5 Control.
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>beginner, topic>html5 ]
 ---
 
