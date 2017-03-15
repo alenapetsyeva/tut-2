@@ -1,6 +1,7 @@
 ---
 title: Enable SAP HANA Cloud Platform mobile services for development and operations
 description: Enable and configure the mobile services for development and operations in SAP HANA Cloud Platform
+primary_tag: products>sap-hana-cloud-platform
 tags: [products>sap-hana-cloud-platform, topic>cloud, topic>mobile, tutorial>intermediate ]
 ---
 ## Prerequisites  
