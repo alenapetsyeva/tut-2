@@ -2,6 +2,7 @@
 title: End-to-End Weather App Scenario Part 4
 description: Convert your app to a Maven-based project
 tags: [ products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites  
