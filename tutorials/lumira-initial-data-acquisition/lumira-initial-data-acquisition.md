@@ -2,6 +2,7 @@
 title: Initial data acquisition in SAP BusinessObjects Lumira
 description: Data acquisition from local sample MS Excel file
 tags: [  tutorial>beginner, products>sap-lumira ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
