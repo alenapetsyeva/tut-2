@@ -2,6 +2,7 @@
 title: Initial data exploration in SAP BusinessObjects Lumira
 description: Overview of the data exploration basics using the Prepare room
 tags: [  tutorial>beginner, products>sap-lumira ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
