@@ -2,6 +2,7 @@
 title: Add extended app to SAP Fiori launchpad
 description: Deploy your exteded app to the SAP Fiori launchpad
 tags: [  tutorial>beginner, topic>cloud, products>sap-hana-cloud-platform, products>sap-web-ide ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
