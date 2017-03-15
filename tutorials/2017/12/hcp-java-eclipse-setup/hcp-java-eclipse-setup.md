@@ -1,6 +1,7 @@
 ---
 title: Configuring Eclipse with SAP HANA Cloud Platform Tools for Java
 description: A step-by-step procedure to configure the Eclipse IDE with for Java development on SAP HANA Cloud Platform
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>beginner, topic>cloud, topic>java, products>sap-hana-cloud-platform ]
 ---
 ## Prerequisites  
