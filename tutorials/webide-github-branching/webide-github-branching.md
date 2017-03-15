@@ -1,6 +1,7 @@
 ---
 title: Creating branches in Github, switching branches and updating application in different branch in SAP Web IDE
 description: Part 5 of 6, Collaborative Development Using Github and SAP Web IDE
+primary_tag: products>sap-hana-cloud-platform
 tags: [ tutorial>intermediate, topic>github, topic>cloud, products>sap-hana, products>sap-web-ide, products>sap-hana-cloud-platform ]
 ---
 ## Prerequisites  
