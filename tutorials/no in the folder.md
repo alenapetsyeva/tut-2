@@ -3,7 +3,7 @@
 title: test
 description: test
 tags: [  tutorial>intermediate, tutorial:type/project ]
-
+primary_tag: tutorial:product/sapHana
 ---
 
 
