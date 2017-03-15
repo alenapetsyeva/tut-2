@@ -2,6 +2,7 @@
 title: An Open Data Protocol (OData) primer for developers
 description: Learn how to explore the data in an OData service, and the functionality included in the service.
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>mobile, topic>odata, tutorial>intermediate ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites
