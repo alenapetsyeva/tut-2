@@ -2,7 +2,7 @@
 title: SAP HANA XS Advanced, Creating an HDI Module
 description: Part 3 of 3, Create your first HDI module for database content within your XSA application
 tags: [products>sap-hana, topic>big-data, tutorial>beginner, tutorial>intermediate ]
-
+primary_tag: tutorial:product/sapHana
 ---
 
 ## Prerequisites  
