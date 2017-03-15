@@ -2,6 +2,7 @@
 title: Developing and deploying a basic Java application on SAP HANA Cloud Platform
 description: Develop and deploy your first Java application using the SAP HANA Cloud Platform Tools for Java
 tags: [  tutorial>beginner, topic>cloud, topic>java, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
