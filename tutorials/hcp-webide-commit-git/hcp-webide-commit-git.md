@@ -1,6 +1,7 @@
 ---
 title: Commit your project files to your HCP Git repository
 description: Learn how to commit and push your project files to the Git repository built into your HCP account.
+primary_tag: tutorial:product/sapHana
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>mobile, tutorial>intermediate]
 ---
 
