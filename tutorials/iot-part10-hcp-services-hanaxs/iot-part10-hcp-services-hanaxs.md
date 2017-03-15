@@ -1,6 +1,7 @@
 ---
 title: Internet of Things (IoT) Viewing your Tessel data from IoT Services through SAP HANA XS
 description: Part 10 of 10, Now connect your IoT Services to an SAP HANA XS shared instance and show the data using SAP HANA XS
+primary_tag: products>sap-hana-cloud-platform
 tags: [products>sap-hana, topic>big-data, topic>internet-of-things, tutorial>beginner ]
 
 ---
