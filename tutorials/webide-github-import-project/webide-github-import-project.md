@@ -1,6 +1,7 @@
 ---
 title: Creating a project in SAP Web IDE and importing it into Github
 description: Part 3 of 6, Collaborative Development Using Github and SAP Web IDE
+primary_tag: products>sap-hana-cloud-platform
 tags: [ tutorial>intermediate, topic>github, topic>cloud, products>sap-hana, products>sap-web-ide, products>sap-hana-cloud-platform ]
 ---
 ## Prerequisites  
