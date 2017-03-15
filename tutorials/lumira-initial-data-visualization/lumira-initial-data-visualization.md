@@ -2,6 +2,7 @@
 title: Basics of data visualization in SAP BusinessObjects Lumira
 description: Basics of visual data discovery
 tags: [  tutorial>beginner, products>sap-lumira ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
