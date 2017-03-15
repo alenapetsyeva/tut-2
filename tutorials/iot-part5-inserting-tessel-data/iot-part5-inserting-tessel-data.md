@@ -1,6 +1,7 @@
 ---
 title: Internet of Things (IoT) Using the Tessel to post data
 description: Part 5 of 10, Modify your Tessel code to now post data to SAP HANA
+primary_tag: products>sap-hana-cloud-platform
 tags: [products>sap-hana, topic>big-data, topic>internet-of-things, tutorial>beginner ]
 
 ---
