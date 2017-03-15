@@ -2,6 +2,7 @@
 title: Insert a currency symbol for display
 description: Learn how to insert a symbol into the master and detail views of your app.
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, topic>odata, tutorial>beginner ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites
