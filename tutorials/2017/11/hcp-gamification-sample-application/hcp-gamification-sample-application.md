@@ -2,6 +2,7 @@
 title: Create the gamified HelpDesk application
 description: Generate demo content for a sample gamified application and use the application.
 tags: [  tutorial>beginner, topic>cloud, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner
