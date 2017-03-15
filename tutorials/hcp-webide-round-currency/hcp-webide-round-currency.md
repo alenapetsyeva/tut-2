@@ -2,6 +2,7 @@
 title: Round the currency field using JavaScript
 description: Learn how to round numbers received from the OData source using JavaScript.
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, topic>odata, tutorial>beginner ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 
 ## Prerequisites
