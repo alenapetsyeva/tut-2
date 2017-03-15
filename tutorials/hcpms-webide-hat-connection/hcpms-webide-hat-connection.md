@@ -1,6 +1,7 @@
 ---
 title: Connecting SAP Web IDE to the Hybrid App Toolkit
 description: Start the Hybrid App Toolkit and test the connection with SAP Web IDE
+primary_tag: products>sap-hana-cloud-platform
 tags: [products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, tutorial>intermediate ]
 ---
 ## Prerequisites  
