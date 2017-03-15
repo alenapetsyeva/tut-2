@@ -1,6 +1,7 @@
 ---
 title: Build and run a hybrid app with SAP Web IDE and Hybrid App Toolkit
 description: Utilize the Hybrid App Toolkit to build a downloadable hybrid app and run it on a device or simulator
+primary_tag: products>sap-hana-cloud-platform
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, topic>sapui5, tutorial>intermediate ]
 ---
 ## Prerequisites  
