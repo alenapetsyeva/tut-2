@@ -2,6 +2,7 @@
 title: SAPUI5 extending a simple Control
 description: Part 1 of 4. In this tutorial you will learn how to extend a simple UI5 control.
 tags: [  tutorial>beginner, topic>html5 ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
 - **Proficiency:** Beginner
