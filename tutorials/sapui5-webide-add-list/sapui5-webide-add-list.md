@@ -2,6 +2,7 @@
 title: SAPUI5 - Add a list to the view
 description: Add a list view to a UI5 page
 tags: [ tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner 
@@ -15,7 +16,11 @@ tags: [ tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-pl
 
 ## Details
 ### You will learn  
-Add a list to first XML view (`View1.xml`). The list will display data from the data model, that got filled with data from the Northwind data service. Every list element will represent a product entity in the data model. Thanks to the data binding, SAPUI5 takes the path of the aggregation and automatically creates as many list items as the aggregation includes (all the product entities).For now, you will just display the product names, more specifically the attribute `ProductName`. In a future tutorial, you will add a detail view with additional information per list element, so you will also implement a mock function for the press event, which is triggered on key-press or tap on mobile devices.You will also change the master view and controller. To fix a design-flaw of the template, we will also quickly update the CSS styling.
+Add a list to first XML view (`View1.xml`). The list will display data from the data model, that got filled with data from the Northwind data service. Every list element will represent a product entity in the data model. Thanks to the data binding, SAPUI5 takes the path of the aggregation and automatically creates as many list items as the aggregation includes (all the product entities).
+
+For now, you will just display the product names, more specifically the attribute `ProductName`. In a future tutorial, you will add a detail view with additional information per list element, so you will also implement a mock function for the press event, which is triggered on key-press or tap on mobile devices.
+
+You will also change the master view and controller. To fix a design-flaw of the template, we will also quickly update the CSS styling.
 
 ### Time to Complete
 **15 Minutes**.
@@ -27,7 +32,11 @@ Add a list to first XML view (`View1.xml`). The list will display data from the 
     You will add a new `<List>` element, and define how every item will be displayed.
   
     ```XML
-    <List items="{/Products}" >		<StandardListItem type="Active"			              press="handleListItemPress"			              title="{ProductName}" />	</List>
+    <List items="{/Products}" >
+		<StandardListItem type="Active"
+			              press="handleListItemPress"
+			              title="{ProductName}" />
+	</List>
 	```
   
     ![View1.view.xml file](1.png)
@@ -37,7 +46,10 @@ Add a list to first XML view (`View1.xml`). The list will display data from the 
 2.  Open the `webapp/css/style.css` file, and then add the following CSS parameters.  This will prevent overflow from hiding elements in the view on the screen.
 
     ```CSS
-    .sapMPage>section {		overflow-x: initial !important;		overflow-y: initial !important;	}
+    .sapMPage>section {
+		overflow-x: initial !important;
+		overflow-y: initial !important;
+	}
 	```
 
     ![style.css file](2.png)
@@ -45,7 +57,12 @@ Add a list to first XML view (`View1.xml`). The list will display data from the 
 3.  Open the `webapp/controller/View1.controller.js` file.  You will add an event handler function for the press event.
 
     ```JavaScript
-    return Controller.extend("HelloWorld.controller.View1", {		handleListItemPress: function (evt) {			// show in a pop-up which list element was pressed			alert("Pressed: " + evt.getSource().getBindingContext());		}	});
+    return Controller.extend("HelloWorld.controller.View1", {
+		handleListItemPress: function (evt) {
+			// show in a pop-up which list element was pressed
+			alert("Pressed: " + evt.getSource().getBindingContext());
+		}
+	});
 	```
 
     ![style.css file](3.png)
@@ -67,5 +84,7 @@ Add a list to first XML view (`View1.xml`). The list will display data from the 
 
 
 ## Additional Reading
-- [Data Binding](https://sapui5.netweaver.ondemand.com/#docs/guide/68b9644a253741e8a4b9e4279a35c247.html)- [`<List>` tag](https://sapui5.netweaver.ondemand.com/#docs/guide/295e44b2d0144318bcb7bdd56bfa5189.html)- [`<StandardListItem>` tag](https://sapui5.netweaver.ondemand.com/explored.html#/entity/sap.m.StandardListItem/properties)
+- [Data Binding](https://sapui5.netweaver.ondemand.com/#docs/guide/68b9644a253741e8a4b9e4279a35c247.html)
+- [`<List>` tag](https://sapui5.netweaver.ondemand.com/#docs/guide/295e44b2d0144318bcb7bdd56bfa5189.html)
+- [`<StandardListItem>` tag](https://sapui5.netweaver.ondemand.com/explored.html#/entity/sap.m.StandardListItem/properties)
 
