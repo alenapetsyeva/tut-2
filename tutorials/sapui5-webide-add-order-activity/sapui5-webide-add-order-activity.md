@@ -2,6 +2,7 @@
 title: SAPUI5 - Add an order activity
 description: Add a button to a detail page, to trigger an process
 tags: [  tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner 
@@ -27,8 +28,10 @@ In that bar, you will add a Button control to the right side of the footer bar i
 1.  Open the `webapp/i18n/i18n.properties` file, and add the following four lines to the bottom:
 
 	```
-	OrderButtonText=Order	OrderDialogTitle=Order Product
-	OrderDialogMsg=Do you want to order this product now?	OrderDialogSuccessMsg=The product has been ordered
+	OrderButtonText=Order
+	OrderDialogTitle=Order Product
+	OrderDialogMsg=Do you want to order this product now?
+	OrderDialogSuccessMsg=The product has been ordered
    ```
    
    ![update the i18n properties](1.png)
@@ -36,7 +39,16 @@ In that bar, you will add a Button control to the right side of the footer bar i
 2.  Open the `webapp/view/Detail.view.xml` file, and add a footer to the detail page by adding the following code under `<ObjectHeader>`:
 
 	```xml
-	<footer>		<Bar>			<contentRight>				<Button text="{i18n>OrderButtonText}"	  	               type="Accept"		               icon="sap-icon://accept"		               press="handleOrder" />			</contentRight>		</Bar>	</footer>
+	<footer>
+		<Bar>
+			<contentRight>
+				<Button text="{i18n>OrderButtonText}"
+	  	               type="Accept"
+		               icon="sap-icon://accept"
+		               press="handleOrder" />
+			</contentRight>
+		</Bar>
+	</footer>
 	```
 
    ![update the Detail.view.xml file with a footer](2.png)
@@ -44,7 +56,9 @@ In that bar, you will add a Button control to the right side of the footer bar i
 3.  Finally, open the `webapp/controller/Detail.controller.js` file.  Register two new classes in the `define` area:
 
 	```
-	,	"sap/m/MessageBox",	"sap/m/MessageToast"
+	,
+	"sap/m/MessageBox",
+	"sap/m/MessageToast"
 	```
 
    ![Add two new classes to the define controller list](3a.png)
@@ -62,8 +76,23 @@ In that bar, you will add a Button control to the right side of the footer bar i
     Finally, add the `handleOrder` function to the Controller:
     
     ```javascript
-    ,	handleOrder : function (evt) {		// show confirmation dialog		var bundle = this.getView().getModel("i18n").getResourceBundle();		MessageBox.confirm(			bundle.getText("OrderDialogMsg"),			function (oAction) {				if (MessageBox.Action.OK === oAction) {					// notify user					var successMsg = bundle.getText("OrderDialogSuccessMsg");					MessageToast.show(successMsg);					// TODO call proper service method and update model (not part of this tutorial)				}
-			},			bundle.getText("OrderDialogTitle")		);	}
+    ,
+	handleOrder : function (evt) {
+		// show confirmation dialog
+		var bundle = this.getView().getModel("i18n").getResourceBundle();
+		MessageBox.confirm(
+			bundle.getText("OrderDialogMsg"),
+			function (oAction) {
+				if (MessageBox.Action.OK === oAction) {
+					// notify user
+					var successMsg = bundle.getText("OrderDialogSuccessMsg");
+					MessageToast.show(successMsg);
+					// TODO call proper service method and update model (not part of this tutorial)
+				}
+			},
+			bundle.getText("OrderDialogTitle")
+		);
+	}
 	```
 	
    ![add a handleOrder method to the controller](3c.png)
@@ -90,4 +119,6 @@ That is all for this series!  Return to the tutorial catalog for more tutorials 
  - This is the end of this tutorial series.  Return to the [Tutorial Navigator](http://go.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](http://go.sap.com/developer/tutorials.html)
 
 ## Additional Information
-- [`Footer`](https://sapui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.Page/preview)- [`MessageBox`](https://sapui5.hana.ondemand.com/docs/api/symbols/sap.m.MessageBox.html)- [`MessageToast`](https://sapui5.hana.ondemand.com/docs/api/symbols/sap.m.MessageToast.html)
+- [`Footer`](https://sapui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.Page/preview)
+- [`MessageBox`](https://sapui5.hana.ondemand.com/docs/api/symbols/sap.m.MessageBox.html)
+- [`MessageToast`](https://sapui5.hana.ondemand.com/docs/api/symbols/sap.m.MessageToast.html)
