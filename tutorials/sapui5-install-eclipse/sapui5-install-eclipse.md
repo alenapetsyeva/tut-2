@@ -2,6 +2,7 @@
 title: Configuring Eclipse with SAPUI5.
 description: A step-by-step procedure to install the Eclipse IDE and SAPUI5 Library.
 tags: [  tutorial>beginner, topic>html5 ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites
  - **Proficiency:** Beginner
