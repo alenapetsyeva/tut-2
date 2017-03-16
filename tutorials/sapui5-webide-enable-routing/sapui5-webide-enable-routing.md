@@ -2,6 +2,7 @@
 title: SAPUI5 - Enable Routing
 description: Enable routing to move from one view to another
 tags: [  tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner 
@@ -22,7 +23,8 @@ In order to enable navigating from one view to another, our app needs to be enab
 
 ---
 
-You have to add a routing configuration to the descriptor file and initialize the router instance within the componentdefinition (`webapp/Component.js`).
+You have to add a routing configuration to the descriptor file and initialize the router instance within the component
+definition (`webapp/Component.js`).
 
 1.  Create a new file called `webapp/view/App.view.xml`.  
 
@@ -35,7 +37,13 @@ You have to add a routing configuration to the descriptor file and initialize th
 2.  Add the following code to the `App.view.xml` file:
 
     ```xml
-    <mvc:View		controllerName="HelloWorld.controller.App"		xmlns="sap.m"		xmlns:mvc="sap.ui.core.mvc"		displayBlock="true">		<App id="app"/>	</mvc:View>
+    <mvc:View
+		controllerName="HelloWorld.controller.App"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc"
+		displayBlock="true">
+		<App id="app"/>
+	</mvc:View>
 	```
     > Don't forget to save your files!
 
@@ -48,7 +56,13 @@ You have to add a routing configuration to the descriptor file and initialize th
     Add the following code to the `App.controller.js` file:
 
 	```Javascript
-	sap.ui.define([		"sap/ui/core/mvc/Controller"	], function(Controller) {		"use strict";		return Controller.extend("HelloWorld.controller.App", {		});	});
+	sap.ui.define([
+		"sap/ui/core/mvc/Controller"
+	], function(Controller) {
+		"use strict";
+		return Controller.extend("HelloWorld.controller.App", {
+		});
+	});
 	```
 
     ![Add the code to App.controller.js](3b.png)
@@ -64,7 +78,27 @@ You have to add a routing configuration to the descriptor file and initialize th
 
     ```Javascript
     ,
-		"routing": {			"config": {				"routerClass": "sap.m.routing.Router",				"viewType": "XML",				"viewPath": "HelloWorld.view",				"controlId": "app",				"controlAggregation": "pages",				"transition": "slide"			},			"routes": [{				"pattern": "",				"name": "appHome",				"target": "home"			}],			"targets": {				"home": {					"viewName": "View1",					"viewLevel" : 1				}			}		}
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "HelloWorld.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "appHome",
+				"target": "home"
+			}],
+			"targets": {
+				"home": {
+					"viewName": "View1",
+					"viewLevel" : 1
+				}
+			}
+		}
 	```
 	
     ![update the manifest.json to add routing](5.png)
@@ -72,7 +106,8 @@ You have to add a routing configuration to the descriptor file and initialize th
 6.  Open the `webapp/Component.js` file, and add the following to the `init:` section:
 
     ```javascript
-    // create the views based on the url/hash	this.getRouter().initialize();
+    // create the views based on the url/hash
+	this.getRouter().initialize();
 	```
     
     ![Initialize routing](6.png)
@@ -80,8 +115,16 @@ You have to add a routing configuration to the descriptor file and initialize th
 7.  Open the `webapp/css/style.css` file, and change the *entire* file to the following:
 
     ```css
-    .spacerTop {	 	margin-top: 2rem;	 }	 .sap-tablet .sapMDialog,	 .sap-desktop .sapMDialog {
-		min-width: 18rem;	 }	 .sapMMessageDialog {		width: 18rem;	 }
+    .spacerTop {
+	 	margin-top: 2rem;
+	 }
+	 .sap-tablet .sapMDialog,
+	 .sap-desktop .sapMDialog {
+		min-width: 18rem;
+	 }
+	 .sapMMessageDialog {
+		width: 18rem;
+	 }
 	```
 
     ![overwrite css file with new information](7.png)
