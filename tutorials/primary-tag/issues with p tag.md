@@ -2,7 +2,7 @@
 title: tutorial with primary tag for test issues
 description: ///Learn how to insert labels into the detail view of your app and add additional fields.
 tags: [ products>sap-hana-cloud-platform, products>sap-web-ide, topic>cloud, topic>html5, topic>mobile, topic>odata, tutorial>beginner, tutorial>test3 ]
-primary_tag: topic>cloud
+
 ---
 
 
