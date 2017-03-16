@@ -1,6 +1,7 @@
 ---
 title: SAPUI5 - Update Internationalization (i18n)
 description: Add internationalization (i18n) files, and add language specific text
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
 ---
 ## Prerequisites  
@@ -25,8 +26,12 @@ Set proper titles to `View1` and `Detail` page by updating the resource model (a
 1.  Open the `webapp/i18n/i18n.properties` file, and update the entire with the following lines.
 
     ```
-    title=Product Overview    appTitle=App Title    appDescription=App Description
-        # Detail View    DetailTitle=Product Details
+    title=Product Overview
+    appTitle=App Title
+    appDescription=App Description
+    
+    # Detail View
+    DetailTitle=Product Details
     ```
 
 	 ![Update the i18n properties file](1.png)
