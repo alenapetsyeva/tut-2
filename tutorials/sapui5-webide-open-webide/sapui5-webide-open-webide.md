@@ -2,6 +2,7 @@
 title: SAPUI5 - Open the SAP Web IDE in SAP HANA Cloud Platform
 description: Navigate to the SAP Web IDE (in SAP HANA Cloud Platform)
 tags: [  tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner 
