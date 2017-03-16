@@ -1,6 +1,7 @@
 ---
 title: Creating a new viz extension project
 description: A step-by-step guide on how to get started with building a visualization extension for SAP Lumira using SAP Web IDE 
+primary_tag: products>sap-hana-cloud-platform
 tags: [  tutorial>beginner, products>sap-lumira, products>sap-hana-cloud-platform, products>sap-web-ide ]
 ---
 ## Prerequisites  
