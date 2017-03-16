@@ -2,6 +2,7 @@
 title: SAPUI5 - Setup the DataSource in the local application
 description: Once the datasource has been defined, configure the local application to use the data.
 tags: [  tutorial>beginner, topic>html5, topic>sapui5, products>sap-hana-cloud-platform ]
+primary_tag: products>sap-hana-cloud-platform
 ---
 ## Prerequisites  
  - **Proficiency:** Beginner 
